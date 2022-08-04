@@ -1,0 +1,27 @@
+download git
+	install git
+
+download kdiff3
+	install kdiff3
+
+download git extensions
+	install git extensions
+	open git extensions
+		configure username  etc.
+		mergetool -> kdiff3
+		difftool -> kdiff3
+
+to clone: 
+	open git extensions
+	copy the link of a github repository
+	click "Clone repository"
+	edit "destination"
+	click "Clone"
+	wait and confirm everything
+	(put something into the destination folder first if needed)
+	click "Commit" 
+	choose data to be cloned (stage)
+	click "commit" or "Commit & push"
+	
+	
+	
